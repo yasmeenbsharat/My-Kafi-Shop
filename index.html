@@ -1,0 +1,426 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome   -->
+    <link rel="stylesheet" href="vendor/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- media css -->
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!-- loading page -->
+    <div class="loading vh-100 w-100 d-flex  position-fixed align-items-center justify-content-center">
+      <span class="loader"></span>
+    </div>
+    
+    <!-- Mop to top -->
+    <i id='movToTop' class=" mov-to-top fa-solid fa-chevron-up p-3"></i>
+    
+    <!--start navbar-->
+<nav id='navbar' class="navbar fixed-top navbar-expand-lg bg-white pt-3 ">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#header">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="#categories">Categories</a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="#">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize" href="#">Contact</a>
+          </li>
+          
+          </ul>
+        </div>
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/Navbar/logo1.jpg"  id="navImg">
+          </a>
+
+          <div class="icon ms-auto ">
+             <a href="" class="btn button text-decoration-none border border-2 rounded-pill px-3 py-2 text-white">
+            <span class="text-capitalize">Buy now</span>
+            <i class="fa-solid fa-cart-shopping bg-white p-1 rounded-circle text-dark"></i>
+          </a></div>
+         
+     
+    </div>
+  </nav>
+<!--end navbar-->
+<!--start header-->
+<header class="header vh-100 text-center" id="header">
+  <div class="title">
+    <h1 class="">Welcome to Kafi Shop !</h1>
+  </div>
+  <div class="banner-bx active">
+    <img src="assets/images/header/763666195.png" class="bnr-img bnr-img1 " alt="">
+    <img src="assets/images/header/mp.jpg"  class="bnr-img bnr-img2 " alt="">
+    <img   src="assets/images/header/Fuji_vday_icon_4.jpg"  class="bnr-img bnr-img3  " alt="">
+    <img src="assets/images/header/1040441149.png" class="bnr-img bnr-img4" alt="">
+    <img src="assets/images/header/234479416.png"   class="bnr-img bnr-img5" alt="">
+
+ </div>
+
+</header>
+
+<!--end header-->
+    <!-- start about section  -->
+    <section class="about py-sm-5" id="about">
+      <div class="container-fluid">
+        <div class="row justify-content-between">
+          <div class="col-lg-6">
+            <div class="about-content">
+              <span> We've got what you need!</span>
+              <h2 class="w-50 pt-4 position-relative">
+                <div class="tag position-absolute">
+                  <i class="fa-solid fa-tag"></i>
+                </div>
+                Welcome to Kafi Shop !
+              </h2>
+              <p class="pt-5">
+                We've got what goods you need, which are guaranteed to meet your
+                needs and satisfy you! With a motivated team, we strive to be
+                the creative minds that bring a smile to your face. That’s why
+                we’re always looking for innovative new ways to get the best to
+                you.
+              </p>
+              <a
+                class="btn aboutBtn mb-5 text-center text-uppercase text-decoration-none d-block py-3 mt-4"
+                href="tel:"
+                >contact with us
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="item p-5 mb-4">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="assets/images/about/1.svg" alt="" />
+                </div>
+                <div class="col-sm-9">
+                  <div class="item-desc">
+                    <h3>Detailed Documentation</h3>
+                    <p>Explore the ins and outs of our theme here</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item p-5 mb-4">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="assets/images/about/2.svg" alt="" />
+                </div>
+                <div class="col-sm-9">
+                  <div class="item-desc">
+                    <h3>Video Tutorials</h3>
+                    <p>Learn to customize your template like a pro</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item p-5 mb-4">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="assets/images/about/3.svg" alt="" />
+                </div>
+                <div class="col-sm-9">
+                  <div class="item-desc">
+                    <h3>Dedicated Support</h3>
+                    <p>
+                      Get help from our professional after-sales support team
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section  -->
+    <!-- start categories section  -->
+    <section class="categories pt-5 position-relative"  id="categories">
+      <div class="categories-title position-relative text-center">
+        <h2 class="py-5 position-relative">
+          <i class="fa-solid fa-cart-shopping position-absolute"></i>
+          Kafi Shop Categories
+        </h2>
+      </div>
+      <div class="container-fluid">
+        <div class="categories-desc pb-5 text-center">
+          <p class="text-capitalize">
+            If you want to see our trending products, click on the category you are interested in !
+          </p>
+        </div>
+        
+        <div class="row py-5">
+          <div class="col-md-4 col-lg-2">
+            <div class="citem mb-5">
+              <img
+                src="assets/images/categories/Clothing_Bubble_EN.jpg"
+                class="w-100"
+                id="clothing"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="citem mb-5">
+              <img
+                src="assets/images/categories/Handmade_Bubble_EN_FINAL.jpg"
+                class="w-100"
+                id="handmade"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="citem mb-5">
+              <img
+                src="assets/images/categories/Jewelry_EN.jpg"
+                class="w-100"
+                id="jewelry"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="citem mb-5">
+              <img
+                src="assets/images/categories/electronics (1).jpg"
+                class="w-100"
+                id="electronics"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="citem mb-5">
+              <img
+                src="assets/images/categories/electronics (2).jpg"
+                class="w-100"
+                id="home"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="citem mb-5">
+              <img
+                src="assets/images/categories/toys.jpg"
+                class="w-100"
+                id="toys"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="item-content border position-absolute m-auto"
+        id="item-content"
+      >
+        <div id="closedIcon" class="closedicon text-end me-3 mt-3">
+          <i class="fa-solid fa-square-xmark"></i>
+        </div>
+        <div class="container">
+          <div
+            class="row justify-content-center text-center g-5"
+            id="item-content-desc"
+          >
+            <h2 class="text-uppercase"></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end categories  section  -->
+      <!-- start the feedback section-->
+<div class="feedback-section ">
+  <div class="container text-center  ">
+      <div class="feedback-content ">
+          <h2 class="subscribe text-white mb-10">Subscribe to Our Newsletter</h2>
+          <p class="parg text-white ">Subscribe to get update, offers notification and information. </p>
+
+      </div>
+      <div class="subscribe-form m-b20 ms-auto">
+          <form class="form1">
+              <div class="warning-text">
+                  <p>Some problem occurred, please try again.</p>
+              </div>
+              <div class="input-group g-0">
+                  <div class="col-md-5">
+                  <input type="email" class="form-control"  placeholder="Your Email Address" required="required" >
+              </div>
+                  <span class="input-group-btn text-white ms-3 mt-2">
+                      <button type="submit" value="Submit" name="button" class="site-button" >Subscribe</button>
+                  </span>
+              </div>
+             
+          </form>
+      </div>
+      <div class="Requirments">
+          <h2 class="text-capitalize text-white ">any special requirement</h2>
+          <h3 class="text-white">Write us At <a href="https://support.w3itexperts.com/">DexignLab Support</a>
+          </h3>
+      </div>
+  </div>
+
+</div>
+
+<!--end the feedback section-->
+
+<!--start the map function section------------>
+<!--
+<section>
+
+
+<div id="map-container-google-1" class="z-depth-1-half container text-center" style="height: 500px">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53659.51584251847!2d35.05179563260485!3d32.799689675025796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151dba4c750de845%3A0xc35d23982a81529a!2z2K3ZitmB2Kc!5e0!3m2!1sar!2sil!4v1673189412059!5m2!1sar!2sil" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+ 
+</section>-->
+
+<!--end the map section------------------>
+
+
+
+<!---------------------------- start footer section ----------------------------------->
+<footer>
+  <div class="container">
+      <div class="row">
+          <div class="item">
+             <img src="assets/images/feedback/logo.jpeg" alt="">
+              <p>We've got what goods you need, which are guaranteed to meet your needs and satisfy you!</p>
+          </div>
+          <div class="item">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="#">Header</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Get Coupon</a></li>
+                  <li><a href="#">Feedback</a></li>
+                  </ul>
+          </div>
+          <div class="item">
+              <h3>New Products</h3>
+              <ul>
+                  <li><a href="#">Woman Cloth</a></li>
+                  <li><a href="#">Fashion Accessories</a></li>
+                  <li><a href="#">Man Accessories</a></li>
+                  <li><a href="#">Rubber made ToysQuick Links</a></li>
+              </ul>
+          </div>
+          <div class="item">
+              <h3>Support  </h3>
+              <ul>
+                  <li><a href="#">Frequently Asked Questions</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#"> Privacy Policy</a></li>
+                  <li><a href="#">Report a Payment Issue</a></li>
+              </ul>
+          </div>
+         
+      </div>
+
+  </div>
+
+
+  
+
+</footer>
+
+<div class="bg-light text-center text-white ">
+ 
+  <div class="container p-4 pb-0">
+    
+    <section class="mb-4">
+      
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"href="#" ><i class="fab fa-facebook-f">
+          </i></a>
+
+      <a
+        class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#" ><i class="fab fa-twitter"></i></a>
+
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#"
+       
+        ><i class="fab fa-google"></i
+      ></a>
+
+  
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#"
+      
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#"
+        
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#"
+        
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    
+  </div>
+  
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+ 
+</div>
+
+<!---------------------------- end footer section ----------------------------------->
+
+ 
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
